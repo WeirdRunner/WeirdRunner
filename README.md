@@ -1,27 +1,18 @@
-<!--  
-**deveshpat/deveshpat** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.  
+### Hi, I'm Devesh 👋
 
-Here are some ideas to get you started:  
--->
-### About Me
+I build ML systems and developer tools, end to end: data, training, evaluation, and the product around them.
+2026 B.Sc. Physics graduate (University of Delhi), self-taught in ML engineering. **Open to entry-level AI/ML and full-stack roles.**
 
-A **Python Developer** familiar with the following frameworks:
+#### Projects
 
-1) `Web Scraping/ Automation Stack`:
-    - Requests, BeautifulSoup, Selenium
+- **[job-board](https://github.com/WeirdRunner/job-board)**: a self-hosted job board that pulls postings from public job APIs, scores them against a resume, and tracks applications; runs free on GitHub Actions + Pages. I trained its decision model myself: a ~300M-parameter encoder that answers ~20 typed questions about a posting in one forward pass (0.15 s per posting on a T4), benchmarked against a commercial decision API.
+- **[EdgeRunner](https://github.com/WeirdRunner/EdgeRunner)**: a coding agent and dev workspace that runs in the browser (WebContainers) or in project folders on your own machine, with diffs, approvals and undo.
+- **[Ouroboros](https://github.com/WeirdRunner/Ouroboros)**: fine-tunes Jamba-Reasoning-3B (attention + Mamba + MoE) for latent reasoning, trainable end to end on free Kaggle GPUs.
+- **[Skill-Binder](https://github.com/WeirdRunner/Skill-Binder)**: a portable Markdown skill library any LLM agent can follow.
+- Earlier: the [IMDB/Wikipedia scraping pipeline](https://github.com/WeirdRunner/QuizSocial-Data) and the [Sia chatbot](https://github.com/WeirdRunner/Telegram_bot) for the DumDumSocial quiz app, and an [automated YouTube pipeline](https://github.com/WeirdRunner/Across-The-Web).
 
-4) `Web Development Stack`:
-    - Frontend: HTML, CSS, JavaScript
-    - Backend: Django, FastAPI
-    - Databases: MySQL, PostgreSQL
+#### Stack
 
-5) `AI/ML Stack`:
-    - PyTorch, HuggingFace
+Python · PyTorch · HuggingFace Transformers · PEFT/LoRA · FastAPI · Django · SQL · TypeScript · React/Next.js · GitHub Actions
 
-### Projects
-
-- [Web Scraping](https://github.com/deveshpat/QuizSocial-Data) -> In this project I scraped `IMDB` ( for movie/series titles, cast info. ) and `Wikipedia` ( for posters, plots, et al ) for a website called [DumDumSocial](https://m.youtube.com/watch?v=5R3KB1qZehg).
-- [Web Automation](https://github.com/deveshpat/Across-The-Web) -> In this project I bootstraped a `AI-driven production system` pipeline for creating/posting videos on YouTube for a channel @ [Across The Web](https://www.youtube.com/@acrosstheweb)
-- [Chatbot Integration](https://github.com/ritesh-patelll/QuizSocial/tree/main/dumdumsocialbot) -> Utilised `Full Stack web application` to integrate a chatbot for the website DumDumSocial as well as a [Telegram Bot](https://github.com/deveshpat/Telegram_bot) variant of the same.
-- [EdgeRunner](https://github.com/deveshpat/EdgeRunner) -> A `FastAPI` + `Next.js` web app mimicking a Agentic Harness setup.
-- [Ouroboros](https://github.com/deveshpat/Ouroboros) -> An AI/ML project that leverages `PyTorch` to finetune a pretrained base model to do latent reasoning.
+📫 [LinkedIn](https://www.linkedin.com/in/devesh-patel-668259172/)
